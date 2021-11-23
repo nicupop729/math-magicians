@@ -18,9 +18,6 @@
 
 ## Getting Started
 
-- You will not need additional instructions on installing Prerequisites.
-- In case you have node_modules on your folder Add them to .gitignore file before you a push.
-
 ### Prerequisites
 
 - Please make sure you have Node.js packedge installed on your terminal
@@ -42,7 +39,9 @@ Run in your terminal the following commands:
 **`$ npm install`**<br>
 **`$ npm start`**
 
-## Authors
+- In case you have node_modules on your folder Add them to .gitignore file before you a push.
+
+## Author
 
 👤 **Nicolae Pop**
 
