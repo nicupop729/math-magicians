@@ -20,7 +20,7 @@
   width: 90%;
 }
 
-.container > div {
+.grid-item {
   text-align: center;
   padding: 2rem;
   font-size: 3rem;
@@ -29,7 +29,7 @@
   cursor: pointer;
 }
 
-.container > :first-child {
+.grid-item:first-child {
   text-align: end;
   padding-right: 0;
   background-color: rgb(133, 134, 147);
@@ -38,7 +38,7 @@
   cursor: default;
 }
 
-.container > .operation {
+.operation {
   background-color: rgb(237, 144, 62);
 }
 
