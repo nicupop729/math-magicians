@@ -130,7 +130,7 @@
   }
 }
 
-@media only screen and (max-height: 400px) {
+@media only screen and (max-height: 300px) {
   .container {
     padding-top: 10rem;
   }
