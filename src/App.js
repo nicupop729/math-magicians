@@ -2,7 +2,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import './App.css';
-import CalcComponets from './components/Calculator';
+import Calculator from './components/Calculator';
 
 class App extends Component {
   constructor() {
@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <CalcComponets />
+        <Calculator />
       </div>
     );
   }

@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 import './calculator.css';
 
-class CalcComponets extends Component {
+class Calculator extends Component {
   constructor() {
     super();
   }
@@ -38,4 +38,4 @@ class CalcComponets extends Component {
   }
 }
 
-export default CalcComponets;
+export default Calculator;

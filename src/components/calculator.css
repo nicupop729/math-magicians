@@ -17,26 +17,27 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
   align-items: center;
+  width: 90%;
 }
 
 .container > div {
   text-align: center;
   padding: 2rem;
   font-size: 3rem;
-  background-color: rgba(168, 168, 168, 0.8);
-  border: 1px solid rgb(216, 216, 216);
+  background-color: rgb(224, 224, 224);
+  border: 1px solid rgb(200, 200, 200);
 }
 
 .container > :first-child {
   text-align: end;
   padding-right: 0;
-  background-color: rgb(80, 80, 80);
+  background-color: rgb(133, 134, 147);
   color: white;
   grid-area: screen;
 }
 
 .container > .operation {
-  background-color: rgb(226, 147, 0);
+  background-color: rgb(237, 144, 62);
 }
 
 .AC {
@@ -113,4 +114,16 @@
 
 .equal {
   grid-area: equal;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 40%;
+  }
 }

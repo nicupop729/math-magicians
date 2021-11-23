@@ -12,4 +12,6 @@ body {
   font-family: sans-serif;
   color: #000;
   width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
