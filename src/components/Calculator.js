@@ -1,13 +1,8 @@
-/* eslint-disable no-useless-constructor */
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import './calculator.css';
 
 class Calculator extends Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
       <div className="wrapper">

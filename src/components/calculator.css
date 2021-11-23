@@ -132,6 +132,6 @@
 
 @media only screen and (max-height: 300px) {
   .container {
-    padding-top: 10rem;
+    height: 100vh;
   }
 }
