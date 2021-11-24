@@ -31,7 +31,7 @@
 
 .grid-item:first-child {
   text-align: end;
-  padding-right: 0;
+  padding-right: 1rem;
   background-color: rgb(133, 134, 147);
   color: white;
   grid-area: screen;
