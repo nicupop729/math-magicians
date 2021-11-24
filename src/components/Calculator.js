@@ -1,33 +1,71 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import './calculator.css';
+import '../logic/calculate';
+import '../logic/operate';
 
 class Calculator extends Component {
   render() {
     return (
-      <div className="wrapper">
-        <div className="container">
-          <div className="grid-item display">0</div>
-          <div className="grid-item AC">AC</div>
-          <div className="grid-item operations">+/-</div>
-          <div className="grid-item procentage">%</div>
-          <div className="grid-item divide operation">÷</div>
-          <div className="grid-item seven">7</div>
-          <div className="grid-item eight">8</div>
-          <div className="grid-item nine">9</div>
-          <div className="grid-item multiply operation">×</div>
-          <div className="grid-item four">4</div>
-          <div className="grid-item five">5</div>
-          <div className="grid-item six">6</div>
-          <div className="grid-item minus operation">-</div>
-          <div className="grid-item one">1</div>
-          <div className="grid-item two">2</div>
-          <div className="grid-item three">3</div>
-          <div className="grid-item plus operation">+</div>
-          <div className="grid-item zero">0</div>
-          <div className="grid-item period">.</div>
-          <div className="grid-item equal operation">=</div>
-        </div>
+      <div className="container">
+        <p className="grid-item display">0</p>
+        <button type="button" className="grid-item AC">
+          AC
+        </button>
+        <button type="button" className="grid-item operations">
+          +/-
+        </button>
+        <button type="button" className="grid-item procentage">
+          %
+        </button>
+        <button type="button" className="grid-item divide operation">
+          ÷
+        </button>
+        <button type="button" className="grid-item seven">
+          7
+        </button>
+        <button type="button" className="grid-item eight">
+          8
+        </button>
+        <button type="button" className="grid-item nine">
+          9
+        </button>
+        <button type="button" className="grid-item multiply operation">
+          ×
+        </button>
+        <button type="button" className="grid-item four">
+          4
+        </button>
+        <button type="button" className="grid-item five">
+          5
+        </button>
+        <button type="button" className="grid-item six">
+          6
+        </button>
+        <button type="button" className="grid-item minus operation">
+          -
+        </button>
+        <button type="button" className="grid-item one">
+          1
+        </button>
+        <button type="button" className="grid-item two">
+          2
+        </button>
+        <button type="button" className="grid-item three">
+          3
+        </button>
+        <button type="button" className="grid-item plus operation">
+          +
+        </button>
+        <button type="button" className="grid-item zero">
+          0
+        </button>
+        <button type="button" className="grid-item period">
+          .
+        </button>
+        <button type="button" className="grid-item equal operation">
+          =
+        </button>
       </div>
     );
   }
