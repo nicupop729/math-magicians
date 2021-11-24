@@ -130,7 +130,7 @@
   }
 }
 
-@media only screen and (max-height: 300px) {
+@media only screen and (max-height: 200px) {
   .container {
     height: 100vh;
   }
