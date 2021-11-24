@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://nicu-pop-math-magicians.netlify.app/)
+[Live Demo Link](https://math-wizard.netlify.app/)
 
 ## Getting Started
 
