@@ -15,13 +15,17 @@
   cursor: pointer;
 }
 
-.grid-item:first-child {
+.display {
   grid-column: 1 / span 4;
   text-align: end;
   padding-right: 1rem;
   background-color: rgb(133, 134, 147);
-  color: white;
+  color: #fff;
   cursor: default;
+}
+
+::placeholder {
+  color: #fff;
 }
 
 .operation {
