@@ -1,4 +1,3 @@
-/* eslint-disable react/prefer-stateless-function */
 import React, { useState } from 'react';
 import './App.css';
 import Calculator from './components/Calculator';
