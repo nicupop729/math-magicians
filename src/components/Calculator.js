@@ -1,10 +1,18 @@
+import React, { useState } from 'react';
 import './calculator.css';
 import '../logic/operate';
-import PropTypes from 'prop-types';
+import calculate from '../logic/calculate';
 
-const Calculator = (props) => {
-  const { calcStates, handleClick } = props;
-  const { total, next } = calcStates;
+const Calculator = () => {
+  const [state, setState] = useState({
+    total: 0,
+    next: 0,
+  });
+  const handleClick = (e) => {
+    setState((old) => calculate(old, e.target.innerText));
+  };
+
+  const { total, next } = state;
   let val = 0;
   if (next) {
     val = next;
@@ -107,11 +115,6 @@ const Calculator = (props) => {
       </button>
     </div>
   );
-};
-
-Calculator.propTypes = {
-  calcStates: PropTypes.instanceOf(Object).isRequired,
-  handleClick: PropTypes.func.isRequired,
 };
 
 export default Calculator;
