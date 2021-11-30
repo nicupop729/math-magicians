@@ -4,6 +4,7 @@
   align-items: center;
   width: 90%;
   max-width: 800px;
+  margin-top: 6rem;
 }
 
 .grid-item {
@@ -13,6 +14,8 @@
   background-color: rgb(224, 224, 224);
   border: 1px solid rgb(200, 200, 200);
   cursor: pointer;
+
+  /* border-radius: 2.5rem; */
 }
 
 .display {
