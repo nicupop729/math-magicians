@@ -14,7 +14,8 @@
 
 ## Live Demo
 
-[Live Demo Link](https://math-wizard.netlify.app/)
+[Live Demo Link - by Netlify](https://math-wizard.netlify.app/)<br/>
+[Live Demo Link - by Heroku](https://math-wizard.herokuapp.com/)
 
 ## Getting Started
 
